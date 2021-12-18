@@ -25,7 +25,3 @@ for(let i=1;i<columns;i++)
     auto+="auto ";
 }
 container.style.cssText=`grid-template-columns:${auto};`;
-
-function black(num){
-    grid[i].classList.add('black');
-}
