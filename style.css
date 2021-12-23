@@ -9,12 +9,37 @@ user-select: none;
 
 h1{
     text-align: center;
-    margin-bottom:5vh;
+    margin-bottom:3vh;
 }
+
+.top-options{
+    display:flex;
+    justify-content:center;
+    margin-bottom:2vh;
+    gap:50px;
+}
+#reset{
+    border-style:outset;
+    border-width:4px;
+    border-color: rgb(46, 46, 46);
+    background-color: rgb(59, 59, 59);
+    color:white;
+}
+#columns{
+    width:50px;
+    height:20px;
+}
+.columns-button{
+    border-style:outset;
+    border-width:4px;
+    border-color: rgb(216, 216, 216);
+    background-color: rgb(177, 177, 177);
+    color:white;
+}
+
 .container{
     display:flex;
     justify-content:center;
-
 }
 #sketchpad-container{
     width:500px;
@@ -22,14 +47,4 @@ h1{
     border-style:outset;
     border-width:8px;
     display:grid;
-
-}
-
-.grid-item:hover{
-    background-color: black;
-}
-
-.black{
-    background-color: black;
-
 }
