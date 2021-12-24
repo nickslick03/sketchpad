@@ -40,6 +40,7 @@ h1{
 .container{
     display:flex;
     justify-content:center;
+    margin-bottom: 2vh;
 }
 #sketchpad-container{
     width:500px;
@@ -47,4 +48,54 @@ h1{
     border-style:outset;
     border-width:8px;
     display:grid;
+}
+
+#color-container{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+#red, #orange, #yellow, #green, #blue, #purple, #pink, #black, #brown, #gray, #white{
+    height:30px;
+    width:30px;
+    border-style:outset;
+    border-width:4px;
+}
+#red:hover, #orange:hover, #yellow:hover, #green:hover, #blue:hover, #purple:hover, #pink:hover, #black:hover, #brown:hover, #gray:hover, #white:hover{
+    border-color:rgb(46, 46, 46);
+}
+
+#red{
+    background-color:red;
+}
+#orange{
+    background-color:orange;
+}
+#yellow{
+    background-color:yellow;
+}
+#green{
+    background-color:green;
+}
+#blue{
+    background-color:blue;
+}
+#purple{
+    background-color:purple;
+}
+#pink{
+    background-color:pink;
+}
+#black{
+    background-color:black;
+}
+#brown{
+    background-color:brown;
+}
+#gray{
+    background-color:gray;
+}
+#white{
+    background-color:white;
 }
