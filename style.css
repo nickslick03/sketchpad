@@ -5,6 +5,12 @@
 -moz-user-select: none;
 -o-user-select: none;
 user-select: none;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:rgb(251, 211, 175);
 }
 
 h1{
@@ -48,12 +54,14 @@ h1{
     border-style:outset;
     border-width:8px;
     display:grid;
+    background-color:white;
 }
 
 #color-container{
     display:flex;
     justify-content:center;
     gap:10px;
+    margin-bottom: 50px;
 }
 
 #red, #orange, #yellow, #green, #blue, #purple, #pink, #black, #brown, #gray, #white{
@@ -98,4 +106,9 @@ h1{
 }
 #white{
     background-color:white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
 }
