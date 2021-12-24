@@ -25,22 +25,20 @@ h1{
     gap:50px;
 }
 #reset{
-    border-style:outset;
-    border-width:4px;
-    border-color: rgb(46, 46, 46);
+    border-style:none;
     background-color: rgb(59, 59, 59);
     color:white;
+    box-shadow: 4px 4px 4px black;
 }
 #columns{
     width:50px;
     height:20px;
 }
 .columns-button{
-    border-style:outset;
-    border-width:4px;
-    border-color: rgb(216, 216, 216);
-    background-color: rgb(177, 177, 177);
+    border-style:none;
+    background-color: rgb(124, 124, 124);
     color:white;
+    box-shadow: 4px 4px 4px black;
 }
 
 .container{
@@ -51,10 +49,10 @@ h1{
 #sketchpad-container{
     width:500px;
     height:500px;
-    border-style:outset;
-    border-width:8px;
+
     display:grid;
     background-color:white;
+    box-shadow: 8px 8px 6px;
 }
 
 #color-container{
@@ -67,11 +65,11 @@ h1{
 #red, #orange, #yellow, #green, #blue, #purple, #pink, #black, #brown, #gray, #white{
     height:30px;
     width:30px;
-    border-style:outset;
-    border-width:4px;
+    box-shadow: 4px 4px 4px;
 }
 #red:hover, #orange:hover, #yellow:hover, #green:hover, #blue:hover, #purple:hover, #pink:hover, #black:hover, #brown:hover, #gray:hover, #white:hover{
     border-color:rgb(46, 46, 46);
+    box-shadow: 6px 6px 6px;
 }
 
 #red{
@@ -111,4 +109,10 @@ h1{
 #footer{
     display: flex;
     justify-content: center;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color: black;
 }
