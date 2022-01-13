@@ -1,3 +1,8 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
 *{
 -webkit-user-select: none;
 -khtml-user-select: none;
@@ -5,17 +10,19 @@
 -moz-user-select: none;
 -o-user-select: none;
 user-select: none;
-
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family:JosefinSans;
 }
 
+
 body{
-    background-color:rgb(251, 211, 175);
+    background-color:rgb(7, 15, 120);
 }
 
 h1{
     text-align: center;
     margin-bottom:3vh;
+    color:rgb(137, 178, 255);
+    font-size: 50px;
 }
 
 .top-options{
@@ -25,20 +32,24 @@ h1{
     gap:50px;
 }
 #reset{
-    border-style:none;
+    border:solid black 2px;
+    border-radius: 6px;
     background-color: rgb(59, 59, 59);
     color:white;
-    box-shadow: 4px 4px 4px black;
+    padding:8px;
+}
+#columns-container{
+    color:white;
 }
 #columns{
     width:50px;
     height:20px;
 }
 .columns-button{
-    border-style:none;
+    border:solid black 2px;
+    border-radius: 6px;
     background-color: rgb(124, 124, 124);
-    color:white;
-    box-shadow: 4px 4px 4px black;
+    padding:8px;
 }
 
 .container{
@@ -49,10 +60,9 @@ h1{
 #sketchpad-container{
     width:500px;
     height:500px;
-
     display:grid;
     background-color:white;
-    box-shadow: 8px 8px 6px;
+    box-shadow: 0px 0px 100px 1px cornflowerblue;
 }
 
 #color-container{
@@ -110,9 +120,15 @@ h1{
     display: flex;
     justify-content: center;
 }
+#footer-link{
+    color:cornflowerblue;
+}
 a{
     text-decoration:none;
 }
 a:hover{
     color: black;
+}
+.top-options{
+    box-shadow:none;
 }
